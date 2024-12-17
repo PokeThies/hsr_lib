@@ -1,6 +1,10 @@
 body {
     background-color: rgb(49, 49, 49);
   }
+
+  .NavText {
+    font-size: 1.2rem;
+  }
   
   /* Loader Styling */
   .simple-spinner {
