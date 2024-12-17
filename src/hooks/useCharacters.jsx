@@ -21,7 +21,7 @@ const useCharacters = () => {
     fetchData();
   }, []);
 
-  return { data, error };
+  return { characters, error };
 };
 
 export default useCharacters;
