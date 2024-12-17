@@ -1,10 +1,10 @@
-import React from 'react'
+import React from 'react'/*
 import {supabase} from "../client/supabaseclient"
 
 
 const { data, error } = await supabase
   .from('test')
-  .select()
+  .select() */
 
 
 const Home = () => {
