@@ -7,6 +7,7 @@ import Layout from "./layout/Layout";
 import AdminLayout from "./layout/Admin/AdminLayout";
 import AdminHome from "./pages/Admin/AdminHome";
 import "./App.css";
+import Tools from "./pages/Tools";
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
         { path: "/", element: <Home /> },
         { path: "about", element: <About /> },
         { path: "contact", element: <Contact /> },
+        { path: "tools", element: <Tools /> },
       ],
     },
      {

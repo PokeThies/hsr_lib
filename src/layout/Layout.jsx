@@ -4,10 +4,10 @@ import Footer from './Footer'
 import {Outlet} from 'react-router-dom'
 
 const Layout = () => {
-  return (
+  return ( // ADD HEADER LATER
     <>
-        <Header/>
 
+  
         <main>
             <Outlet/>
         </main>
