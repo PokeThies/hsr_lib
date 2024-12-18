@@ -8,7 +8,7 @@ import AdminLayout from "./layout/Admin/AdminLayout";
 import AdminHome from "./pages/Admin/AdminHome";
 import "./App.css";
 import Tools from "./pages/Tools";
-
+import AddCharacter from "./pages/addCharacter";
 
 function App() {
   const router = createBrowserRouter([
@@ -21,9 +21,10 @@ function App() {
         { path: "about", element: <About /> },
         { path: "contact", element: <Contact /> },
         { path: "tools", element: <Tools /> },
+        { path: "addchar", element: <AddCharacter /> },
       ],
     },
-     {
+    {
       element: <AdminLayout />,
       errorElement: <PageNotFound />,
       children: [
